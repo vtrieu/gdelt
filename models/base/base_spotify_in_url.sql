@@ -1,4 +1,5 @@
 --Spotify directly referenced in Source URLs; base model
+--adding comments to test git integration
 
 {{ config(materialized='view') }}
 
