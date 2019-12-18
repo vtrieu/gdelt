@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: xf_spotify_aggregated
+    description: This view is the final output model for Spotify data. 
+
+    columns:
+        - name: AVG_TONE
+          description: This is the average of the average tone. lulz

@@ -1,4 +1,5 @@
-create or replace view SB_HACKATHON_DB_TEAM1.GDELT_RAW.xf_spotify_aggregated as (
+create transient table SB_HACKATHON_DB_TEAM1.GDELT_RAW.xf_spotify_aggregated__dbt_tmp
+  as (
     --aggregating xf_spotify_date
 
 
